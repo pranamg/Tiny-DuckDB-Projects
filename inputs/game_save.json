@@ -1,0 +1,35 @@
+{
+  "player": {
+    "name": "DragonSlayer",
+    "level": 42,
+    "class": "Warrior",
+    "health": 850,
+    "max_health": 1000,
+    "mana": 150,
+    "max_mana": 200
+  },
+  "stats": {
+    "strength": 85,
+    "dexterity": 45,
+    "intelligence": 30,
+    "wisdom": 25,
+    "charisma": 40
+  },
+  "inventory": [
+    {"id": 1, "name": "Excalibur", "type": "weapon", "damage": 150, "equipped": true},
+    {"id": 2, "name": "Dragon Shield", "type": "armor", "defense": 80, "equipped": true},
+    {"id": 3, "name": "Health Potion", "type": "consumable", "effect": "heal", "quantity": 5},
+    {"id": 4, "name": "Mana Potion", "type": "consumable", "effect": "restore_mana", "quantity": 3},
+    {"id": 5, "name": "Gold Ring", "type": "accessory", "bonus": "luck+10", "equipped": false}
+  ],
+  "quests": {
+    "completed": ["The Beginning", "First Blood", "Dragon's Den"],
+    "active": [
+      {"name": "The Final Battle", "progress": 75, "objective": "Defeat the Dark Lord"},
+      {"name": "Side Quest: Lost Artifact", "progress": 30, "objective": "Find 3 artifact pieces"}
+    ]
+  },
+  "playtime_hours": 127.5,
+  "last_save": "2024-01-20T15:30:00Z",
+  "achievements": ["First Kill", "Level 10", "Level 25", "Dragon Slayer", "Rich (1000 gold)"]
+}
